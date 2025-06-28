@@ -41,10 +41,10 @@ Sample Input
    root home downloads
    root var log
    
-3) countDescendants root
-4) cutPaste root/home/documents   root/var
-5) copyPaste root/var/documents   root/home
-6) countDescendants root
+2) countDescendants root
+3) cutPaste root/home/documents   root/var
+4) copyPaste root/var/documents   root/home
+5) countDescendants root
 
 Sample output
 
