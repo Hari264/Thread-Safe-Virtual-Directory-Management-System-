@@ -35,3 +35,22 @@ Design a Java-based system to manage a hierarchical directory structure with the
 Maximum number of directories allowed: **1,000,000**
 
 ---
+Sample Input
+1) 3
+   root home documents
+   root home downloads
+   root var log
+   
+3) countDescendants root
+4) cutPaste root/home/documents        root/var
+5) copyPaste root/var/documents        root/home
+6) countDescendants root
+
+Sample output
+
+1) Tree Created
+2) 5
+3) Tree Structure
+4) Tree Structure
+5) 6
+
