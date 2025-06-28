@@ -42,18 +42,21 @@ Sample Input
    root var log
    
 3) countDescendants root
-4) cutPaste root/home/documents        root/var
-5) copyPaste root/var/documents        root/home
+4) cutPaste root/home/documents   root/var
+5) copyPaste root/var/documents   root/home
 6) countDescendants root
 
 Sample output
 
-1) Tree Created ![WhatsApp Image 2025-06-28 at 13 19 14_d079b203](https://github.com/user-attachments/assets/3b8adf70-ad3a-40fb-9af0-67ea7e289a2a)
+1)  3
+    root home documents
+    root home downloads
+    root var log ![WhatsApp Image 2025-06-28 at 13 19 14_d079b203](https://github.com/user-attachments/assets/3b8adf70-ad3a-40fb-9af0-67ea7e289a2a)
 
-2) 5
-3) Tree Structure ![WhatsApp Image 2025-06-28 at 13 17 42_aff4bce9](https://github.com/user-attachments/assets/d96af4ea-15fd-4b5a-ab1c-8f921923e76f)
+2)  countDescendants root: 5
+3)  cutPaste root/home/documents   root/var ![WhatsApp Image 2025-06-28 at 13 17 42_aff4bce9](https://github.com/user-attachments/assets/d96af4ea-15fd-4b5a-ab1c-8f921923e76f)
 
-4) Tree Structure ![WhatsApp Image 2025-06-28 at 13 17 41_8d49a421](https://github.com/user-attachments/assets/cd0404f3-9677-4d16-bbef-6035abd47459)
+4)  copyPaste root/var/documents   root/home ![WhatsApp Image 2025-06-28 at 13 17 41_8d49a421](https://github.com/user-attachments/assets/cd0404f3-9677-4d16-bbef-6035abd47459)
 
-5) 6
+5)  countDescendants root: 6
 
